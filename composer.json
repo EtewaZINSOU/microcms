@@ -1,0 +1,14 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "require":{
+            "silex/silex":"1.0.*",
+            "doctrine/dbal": "2.6.x-dev",
+             "twig/twig": "1.6.5"
+    },
+    "autoload": {
+        "psr-4": {"microcms\\": "src"}
+    }
+}
